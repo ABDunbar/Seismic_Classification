@@ -1,0 +1,14 @@
+# Seismic data (large binary files)
+Attributes/
+VOLUMES/
+*.segy
+*.nc
+*.seisnc
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
