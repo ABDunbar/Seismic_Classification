@@ -1,6 +1,7 @@
 # Seismic data (large binary files)
 Attributes/
 VOLUMES/
+SKILLS/
 *.segy
 *.nc
 *.seisnc
