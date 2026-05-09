@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seismic-class"
+version = "0.1.0"
+description = "Seismic facies classification — Bryne Formation, North Sea"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "pandas",
+    "xarray",
+    "netcdf4",
+    "scipy",
+    "scikit-learn",
+    "matplotlib",
+    "seaborn",
+    "segysak",
+    "minisom",
+    "bruges",
+    "jupyterlab",
+    "ipykernel",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
