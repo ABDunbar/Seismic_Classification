@@ -21,7 +21,11 @@ dependencies = [
     "bruges",
     "jupyterlab",
     "ipykernel",
+    "qsi",
 ]
 
 [project.optional-dependencies]
 dev = ["pytest"]
+
+[tool.uv.sources]
+qsi = { path = "../qsi", editable = true }
